@@ -3,6 +3,9 @@ package com.kh.MethodEx;
 메서드(method) 
 	특정 행동이나 작업을 진행하는 코드 블록  {     }
 	ex ) 메서드급 연기! ㅇㅇㅇ 메소드급 영화 출현
+	@Setter
+	Setter Getter alt shift s 누르고 생성
+	//생성하고 나서 임의로 값을 변경하지 말 것 
 	
 	Setter : 필드에 작성한 변수를 복사해서 원본 변수 대신에 값을 변경하고 저장하는 메서드
 		public void set변수명(자료형 매개변수) {

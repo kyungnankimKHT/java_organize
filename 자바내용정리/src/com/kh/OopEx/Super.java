@@ -1,6 +1,6 @@
 package com.kh.OopEx;
 /*
- super() 와 super 
+ super() 와 super. 
  부모 클래스를 가리키거나, 부모클래스의 생성자를 호출하는데 사용
  super() 	  : 변수명 호출이 아니라 부모 클래스에서 기본 생성자를 호출
 			

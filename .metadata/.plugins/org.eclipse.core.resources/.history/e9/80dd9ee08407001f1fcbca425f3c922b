@@ -1,0 +1,20 @@
+package ncs.test4;
+
+public class Product {
+//필드
+	private String name;
+	private int price;
+	private int quantity;
+	
+//메서드
+	//Getter
+	
+	//Setter
+	
+	
+	//생성자 기본
+	
+	//생성자 필수
+	
+	//return 정보
+}

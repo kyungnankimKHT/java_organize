@@ -51,7 +51,7 @@ package com.kh.variableEx;
  		Integer.parseInt(핸드폰번호); //숫자로 변경
  		
  		
- 		
+ 		정수는 맨 앞에 0을 자동으로  제거시킨 후 진행
  
  
  */
