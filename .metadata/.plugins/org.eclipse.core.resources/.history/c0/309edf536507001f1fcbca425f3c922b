@@ -12,6 +12,7 @@ public class StringTest {
 		//문자열을 ,  기준으로 나눠서  배열로 만들어서 장바구니처럼 담아줌
 		//split , 를 기준으로 나눈다는 것
 		String[] numbers = str.split(",");
+		
 		// , 나눈 실수들을 모아서 double 에 담아줌
 		double[] values = new double[numbers.length];
 		//number 에서 나온 최대 길이만큼 장바구니 배열 크기를 생성
@@ -22,17 +23,14 @@ public class StringTest {
 			values[i] = Double.parseDouble(numbers[i]);
 			System.out.println("values[" + i + "] = " + values[i]);
 		}
+		
 		//실수로 만들어진 값들의 합 구하기
 		double 합 = 0;
 		for(double num : values) {
 			합 += num;
 		}
-		//평균 구하기
-		double 평균 = 합 / values.length;
-		//출력
-		System.out.println("원래 주어진 값 : " + str);
-		System.out.println("합        계 : " + 합);
-		System.out.println("평        균 : " + 평균);
+		
+		
 		
 	}
 }
