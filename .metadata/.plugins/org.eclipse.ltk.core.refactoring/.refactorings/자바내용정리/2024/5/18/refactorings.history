@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.kh.OopEx.OopPre&apos; to &apos;Super&apos;&#x0D;&#x0A;- Original project: &apos;자바내용정리&apos;&#x0D;&#x0A;- Original element: &apos;com.kh.OopEx.OopPre&apos;&#x0D;&#x0A;- Renamed element: &apos;com.kh.OopEx.Super&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OopPre&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.kh.OopEx{OopPre.java[OopPre" matchStrategy="1" name="Super" qualified="false" references="true" similarDeclarations="false" stamp="1714526268088" textual="false" version="1.0"/>
+</session>
