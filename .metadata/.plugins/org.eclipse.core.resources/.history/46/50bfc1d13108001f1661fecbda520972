@@ -32,7 +32,7 @@ package com.kh.collectionEx;
        Map.Entry 써서 모두 가져올 수 있음
        	맵 안에서 각각의 키-값 
        	
-       또는 getKey()  getValue() 를 사용해서 각각 가져올 수 있기도 함
+       	또는 getKey()  getValue() 를 사용해서 각각 가져올 수 있기도 함
   
   
  */

@@ -23,17 +23,6 @@ package com.kh.collectionEx;
   	containsKey(key) : 맵에 지정된 키가 포함되어 있는지 확인
   	containsValue(value) : 맵에 지정된 값이 포함되어 있는지 확인
   	remove(key) : 지정된 키와 해당하는 값을 제거
-  			key     value
-  Map.Entry<자료형,   자료형 >
-     Map 인터페이스 안에서 작성된 내부 클래스 Entry :키와 값의 쌍을 나타냄
-     
-       entrySet() 메서드를 사용해서 키-값 에 대한 정보를 보여줌
-       		모든 ~~~ 키와 값의 쌍을 한 번에 보여주지만
-       Map.Entry 써서 모두 가져올 수 있음
-       	맵 안에서 각각의 키-값 
-       	
-       또는 getKey()  getValue() 를 사용해서 각각 가져올 수 있기도 함
-  
   
  */
 public class Map {
