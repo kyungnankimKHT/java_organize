@@ -23,20 +23,11 @@ public class 컴퓨터가게 {
 		}
 		
 		//특정 물품의 가격 출력
-		//Scanner로 입력받아서 확인
-		Scanner sc = new Scanner(System.in);
-		System.out.print("물품입력하기 : ");
-		String 찾는물건 = sc.nextLine();//"USB";
+		String 찾는물건 = "USB";
 		
 		System.out.println(찾는물건 + " 가게에 있습니까 ? ");
 		
 		//containsKey 존재하는지 존재하지 않는지  if문 사용해서 확인 후
-		if(모든제품.containsKey(찾는물건)) {
-			int 제품가 = 모든제품.get(찾는물건);
-			System.out.println("네 존재합니다.! 가격은 " + 제품가 + "입니다.");
-		} else {
-			System.out.println("고객님. 상품이 인기가많아 품절입니다.");
-		}
 		//존재한다면 네~! 존재합니다.
 		//존재하지않는다면 현재 품절입니다.
 		
