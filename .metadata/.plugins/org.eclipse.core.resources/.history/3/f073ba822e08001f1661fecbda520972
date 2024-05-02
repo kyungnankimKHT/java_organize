@@ -31,10 +31,6 @@ public class 샌드위치가게 {
 				
 		//중복제거리스트 출력
 		System.out.println(중복되지않은주문);
-		//for-each
-		for(샌드위치 주문 : 중복되지않은주문) {
-			System.out.println(주문);
-		}
 	}
 }
 
