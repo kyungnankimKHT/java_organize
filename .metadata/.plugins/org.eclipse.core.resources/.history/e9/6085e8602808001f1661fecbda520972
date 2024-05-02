@@ -1,0 +1,12 @@
+package com.kh.Hampurger;
+
+public class HamburgerOrder {
+//필드
+	고객명
+	버거타입
+	
+//메서드
+	//필수생성자
+	
+	//Override toString alt shift s s 
+}

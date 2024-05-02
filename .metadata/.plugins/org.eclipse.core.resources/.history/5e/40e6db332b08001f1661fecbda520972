@@ -1,0 +1,14 @@
+package com.kh.Sandwich;
+
+public class 샌드위치 {
+//필드
+		private String 고객명;
+		private String 샌드위치종류;
+		
+//메서드
+	//생성자 필수 alt shift s o
+	//Getter
+	//Setter
+		
+	//@Override toString 고객명 샌드위치종류 alt shift s s
+}
