@@ -74,6 +74,7 @@ public class Inventory {
 		//날짜 형식을 변경
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy년 MM월 dd일");
 		
+		
 		String 문자열변환 = dateFormat.format(putDate);
 		
 		String 출고일변환 = dateFormat.format(getDate);

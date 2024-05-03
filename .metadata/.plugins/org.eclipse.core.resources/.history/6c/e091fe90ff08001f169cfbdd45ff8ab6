@@ -74,19 +74,15 @@ public class Inventory {
 		//날짜 형식을 변경
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy년 MM월 dd일");
 		
+		
 		String 문자열변환 = dateFormat.format(putDate);
 		
 		String 출고일변환 = dateFormat.format(getDate);
-					//현재재고   -  판매량
-		int 남은재고 = putAmount - getAmount;
 		
 		
-		return "제품명 = " + productName 
-				+ ", 입고일 = " + 문자열변환 
-				+ ", 출고일 = " + 출고일변환
-				+ ", 상품재고 = " + putAmount 
-				+ ", 판매량 = " + getAmount 
-				+ ", 팔고 남은 양 =" + 남은재고;
+		return "Inventory [productName=" + productName + ", putDate=" + 문자열변환 + ", getDate=" + 출고일변환
+				+ ", putAmount=" + putAmount + ", getAmount=" + getAmount + ", inventoryAmount=" + inventoryAmount
+				+ "]";
 	}
 
 }

@@ -38,16 +38,13 @@ public class Maptest {
 		
 		//만약에 제품이 존재하지 않을 경우  AmountNotEnough 넣고 사용을 할 것
 		for(Inventory 인벤토리 : inventoryMap.values()) {
-			//내가 가지고 있는 양보다    <   출고 양이 더 많을 경우
-			
-			//    판매하고자하는양      >       현재 가지고 있는 양
 			if(인벤토리.getGetAmount() > 인벤토리.getPutAmount()) {
 				throw new AmountNotEnough("출고 수량이 재고 수량을 초과했습니다.");
 			}
 		}
 		
 		} catch (AmountNotEnough e) {
-			e.printStackTrace(); // 에러를 출력해서 보여주기
+			
 		}
 		
 		

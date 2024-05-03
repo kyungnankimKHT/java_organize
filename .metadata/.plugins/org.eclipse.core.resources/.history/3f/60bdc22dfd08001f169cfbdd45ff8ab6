@@ -21,38 +21,9 @@ public class Maptest {
 		캘린더.set(2016,캘린더.JANUARY, 23);
 		inventoryMap.put("애플 아이패드 프로", new Inventory("애플 아이패드 프로",캘린더.getTime(),15));
 	
-		
-		
-		try {
-		
 		캘린더.set(2016,캘린더.APRIL, 28);
-		inventoryMap.get("삼성 갤럭시S7").setGetDate(캘린더.getTime()); //출고 날짜
+		inventoryMap.get("삼성 갤럭시S7").setGetDate(new Date(116,20,30)); //출고 날짜
 		inventoryMap.get("삼성 갤럭시S7").setGetAmount(10); //출고 갯수
-		
-		
-		inventoryMap.get("Lg G5").setGetDate(캘린더.getTime());
-		inventoryMap.get("Lg G5").setGetAmount(10);
-		
-		inventoryMap.get("애플 아이패드 프로").setGetDate(캘린더.getTime());
-		inventoryMap.get("애플 아이패드 프로").setGetAmount(10);
-		
-		//만약에 제품이 존재하지 않을 경우  AmountNotEnough 넣고 사용을 할 것
-		for(Inventory 인벤토리 : inventoryMap.values()) {
-			//내가 가지고 있는 양보다    <   출고 양이 더 많을 경우
-			
-			//    판매하고자하는양      >       현재 가지고 있는 양
-			if(인벤토리.getGetAmount() > 인벤토리.getPutAmount()) {
-				throw new AmountNotEnough("출고 수량이 재고 수량을 초과했습니다.");
-			}
-		}
-		
-		} catch (AmountNotEnough e) {
-			e.printStackTrace(); // 에러를 출력해서 보여주기
-		}
-		
-		
-		
-		
 		
 		
 		
