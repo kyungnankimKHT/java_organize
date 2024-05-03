@@ -10,9 +10,10 @@ package com.kh.collectionEx;
  	
  SimpleDateFormat 
  	년도  월  일   시간        분    초   요일
- 	yyyy-MM-dd    HH      : mm  :ss   eeee
- 				 H  24시간
- 				 h 오전오후
+ 	yyyy-MM-dd    HH      : mm  :ss   EEEE
+ 				 H  24시간			   E    : 요일 하나만 표기
+ 				 h 오전오후			  EEEE  : 예를들어 금요일이면 금요일 모두 표기
+ 				 					   d..  : 컴퓨터나 각자 환경에 맞게 d, e, D 표기를 변경해서 작성
  	기본값
  	SimpleDateFormat 변수명 = new SimpleDateFormat(); //24. 5. 3. 오전 10:44 으로 표기
  	"" 안에 작성하는 특수문자는 정해진 형식이 없음 - /  .  _
