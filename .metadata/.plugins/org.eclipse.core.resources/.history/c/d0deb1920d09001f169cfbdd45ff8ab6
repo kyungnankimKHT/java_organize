@@ -1,0 +1,7 @@
+package com.kh.test.main;
+
+public class 객체힙스택1 {
+	public static void main(String[] args) {
+		Car 차 = new Car();
+	}
+}
