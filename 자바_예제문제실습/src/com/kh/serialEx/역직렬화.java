@@ -4,7 +4,8 @@ import java.io.*;
 
 public class 역직렬화 {
 	public static void main(String[] args) {
-		//직렬화된 파일 불러오기
+		//직렬화된 파일 불러오기   
+		
 		String 파일이름 = "student.txt";
 		
 		try {
