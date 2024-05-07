@@ -1,6 +1,8 @@
 package 자바_예제문제실습;
 
-public class Circle {
+import java.io.Serializable;
+
+public class Circle implements Serializable {
 	public static final double PI = 3.14;
 	public double radius;
 	

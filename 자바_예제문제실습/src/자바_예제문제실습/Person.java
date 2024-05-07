@@ -1,4 +1,7 @@
 package 자바_예제문제실습;
+
+import java.io.Serializable;
+
 /*
  캡슐화
  String 사람이름 김영희
@@ -8,7 +11,7 @@ package 자바_예제문제실습;
   
   PersonMain person.txt 저장
  */
-public class Person {
+public class Person implements Serializable {
 	private String 사람이름;
 	private int 나이;
 	
@@ -23,8 +26,6 @@ public class Person {
 		this.사람이름 = 사람이름;
 		this.나이 = 나이;
 	}
-	
-	
 	public void set사람이름(String 사람이름) {
 		this.사람이름 = 사람이름;
 	}
